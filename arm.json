@@ -240,5 +240,7 @@
       "type": "string",
       "value": "[reference(resourceId('Microsoft.Network/publicIPAddresses',variables('publicIpAddressName'))).dnsSettings.fqdn]"
     }
-  }
+  } 
+}
+]
 }
