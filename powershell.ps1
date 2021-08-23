@@ -42,7 +42,7 @@ WindowsServerCommon
 #InstallCloudLabsShadow $ODLID $InstallCloudLabsShadow
 
 InstallEdgeChromium
-DisableWindowsFirewall
+Disable-InternetExplorerESC
 
 Enable-CloudLabsEmbeddedShadow $vmAdminUsername $trainerUserName $trainerUserPassword
 
