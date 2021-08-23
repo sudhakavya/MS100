@@ -131,7 +131,6 @@
               "commandToExecute": "[concat('powershell.exe -ExecutionPolicy Unrestricted')]"
           }
         }
-      ]
     },
     {
       "name": "[variables('virtualNetworkName')]",
