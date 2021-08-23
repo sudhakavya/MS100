@@ -126,9 +126,9 @@
             "autoUpgradeMinorVersion": "true",
             "settings": {
               "fileUris": [
-                
+                "https://raw.githubusercontent.com/sudhakavya/MS100/main/powershell.ps1"
               ],
-              "commandToExecute": "[concat('powershell.exe -ExecutionPolicy Unrestricted')]"
+              "commandToExecute": "[concat('powershell.exe -ExecutionPolicy Unrestricted -File MS100/main/powershell.ps1', variables('cloudlabsCommon') , variables('Enable-CloudLabsEmbeddedShadow'))')]"
           }
         }
     },
