@@ -128,7 +128,7 @@
               "fileUris": [
                 
               ],
-              "commandToExecute": "[concat('powershell.exe -ExecutionPolicy Unrestricted
+              "commandToExecute": "[concat('powershell.exe -ExecutionPolicy Unrestricted')]"
           }
         }
       ]
